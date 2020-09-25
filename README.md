@@ -19,4 +19,4 @@
            [root@gateway]# echo 1 > /proc/sys/net/ipv4/ip_forward
            [root@gateway]# systemctl restart network
 
-           //리눅스에선 기본적으로 보안 이슈때문에 
+           //리눅스에선 기본적으로 보안 이슈때문에 네트워크 인터페이스간 통신을 제한. 
